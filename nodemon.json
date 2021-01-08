@@ -1,0 +1,7 @@
+{
+  "delay": 3,
+  "ext": "ts,js,json,graphql",
+  "ignore": [".git", "node_modules/**/node_modules", "dist"],
+  "watch": ["src", ".env"],
+  "exec": "ts-node ./src/index.ts"
+}
